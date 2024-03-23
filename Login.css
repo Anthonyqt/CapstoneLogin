@@ -1,0 +1,236 @@
+
+form{
+    width: 100%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+ 
+    body{
+        background-color: white;
+        font-family: 'Poppins', sans-serif; 
+    }
+    .container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+
+    .context{
+        background-color: #f2e1e1d5;
+        box-shadow: 2px 8px 4px 0px rgba(0, 0, 0, 0.25); 
+        border: 1px solid #CCC3C3;
+        border-left: none;
+        width: 80%;
+        position:absolute ;
+        margin-top: 100%;
+        border-radius: 15px;
+        padding: 4% 2.5% 10% 2.5%;
+       
+    } 
+    .textcenter{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .welcome{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .logo{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+
+    input{
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        
+       
+    }
+
+
+
+    .flex-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+
+    .forgotpassword{
+        color: rgb(177, 115, 1);
+        text-decoration: none;
+        float: right;
+        padding-right: 50px;
+        font-size: 0.8rem;
+    }
+
+
+    .input-icon {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+        
+      }
+    
+   .submit{
+        border-radius: 8px;
+        padding-left: 94px;
+        padding-right: 94px;
+        margin-top: 20px;
+        color: white;
+        background-color: orange;
+        
+   }
+    .input-icon {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content:center ;
+    }
+
+    .input-icon .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc; /* Icon color */
+    }
+
+    .input-icon input[type="text"], .input-icon input[type="password"] {
+    padding-left: 30px;
+   
+    }
+    
+
+}
+
+
+
+
+
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+
+    .container{
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-top: 5%;
+ 
+     }
+
+     .backgroundlogin{
+       
+        width: 600px;
+        height: 706px;
+        box-shadow: 2px 8px 4px 0px rgba(0, 0, 0, 0.25);
+        border: 1px solid #CCC3C3;
+        border-right: none;
+     }
+
+     .context{
+        background-color: #F2E1E1;
+        width: 600px;
+        height: 706px;
+        box-shadow: 2px 8px 4px 0px rgba(0, 0, 0, 0.25); 
+        border: 1px solid #CCC3C3;
+        border-left: none;
+        color: #49241E;
+        
+     }
+
+     input{
+        
+        padding: 15px 50% 15px 50%;
+        font-family: 'Poppins', sans-serif; 
+        border-radius: 8px;
+        
+     }
+
+     .welcome{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-top: 30px;
+        margin-bottom: 60px;
+     }
+    
+     .submit{
+        padding: 15px 41% 15px 41%;
+        margin-top: 30px;
+        background-color: #E38B00;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px; 
+        border: none;
+     }
+
+     .flex-container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+        
+     }
+
+     .logo{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-weight:bolder;
+        font-size: 2rem;
+        margin-top: 40px;
+         
+     }
+
+     .textcenter{
+        text-align: left;
+        padding:10px 10px 10px 50px;
+        width: 100%;
+     }
+
+     .forgotpassword{
+        color: rgb(177, 115, 1);
+        text-decoration: none;
+        float: right;
+        margin-right: 17%;
+        font-size: 0.8rem;
+    }
+     
+     .input-icon {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        justify-content:center ;
+        width: 80%;
+        }
+    
+        .input-icon .icon {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ccc; /* Icon color */
+        }
+    
+        .input-icon input[type="text"], .input-icon input[type="password"] {
+        padding-left: 30px;
+        /* Make room for the icon */
+        /* Further input styling */
+        }
+}   
